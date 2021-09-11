@@ -6,10 +6,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
-import ru.gaer390.web.role.Role;
-import ru.gaer390.web.role.RoleServiceImpl;
-import ru.gaer390.web.user.UserServiceImpl;
-import ru.gaer390.web.user.User;
+import ru.gaer390.web.model.Role;
+import ru.gaer390.web.service.RoleServiceImpl;
+import ru.gaer390.web.service.UserServiceImpl;
+import ru.gaer390.web.model.User;
 
 import java.time.LocalDate;
 import java.time.Month;
